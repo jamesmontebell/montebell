@@ -2,6 +2,7 @@
 	import { Avatar, AvatarFallback, AvatarImage } from '$components/ui/avatar';
 	import Icon from '@iconify/svelte';
 	import { fly, fade } from 'svelte/transition';
+	// import img from 'static/me.jpg';
 
 	import { onMount } from 'svelte';
 
@@ -41,7 +42,7 @@
 	md:mt-36 md:w-72 md:h-72 md:shadow-2xl
 	"
 	>
-		<AvatarImage class="" src="src/components/images/me.jpg" alt="@shadcn" />
+		<AvatarImage class="" src="me.jpg" alt="@shadcn" />
 		<AvatarFallback>CN</AvatarFallback>
 	</Avatar>
 	<div class="mt-10 md:mt-36">
