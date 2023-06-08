@@ -9,6 +9,10 @@
 	import BackToTop from '../components/BackToTop.svelte';
 </script>
 
+<svelte:head>
+	<title>James Montebell</title>
+</svelte:head>
+
 <Hero />
 
 <div class="flex flex-col text-xl">
@@ -20,13 +24,13 @@
 		<About />
 	</div>
 	<div id="Resume" />
-	<hr class="bg-[#202330] w-3/4 self-center my-6 border-2 rounded-full" />
+	<!-- <hr class="bg-[#202330] w-3/4 self-center my-6 border-2 rounded-full" /> -->
 	<Skills />
 	<!-- <hr class="bg-[#202330] w-3/4 self-center my-6 border-2 rounded-full" /> -->
 	<div class="md:w-2/3 md:self-center">
 		<Resume />
 	</div>
-	<hr class="bg-[#202330] w-3/4 self-center my-6 border-2 rounded-full" />
+	<!-- <hr class="bg-[#202330] w-3/4 self-center my-6 border-2 rounded-full" /> -->
 	<div id="Projects" class="mt-6">
 		<Projects />
 	</div>

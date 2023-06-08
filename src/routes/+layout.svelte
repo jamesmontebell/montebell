@@ -85,7 +85,7 @@
 					</p>
 					<a
 						class=" hover:scale-110 transition hover:ease-in-out hover:duration-500 text-[#dfe0e2]"
-						href="/">Contact</a
+						href="/contact">Contact</a
 					>
 				</div>
 			</div>
