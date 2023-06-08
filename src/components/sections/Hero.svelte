@@ -4,8 +4,6 @@
 	import { fly, fade } from 'svelte/transition';
 	// import img from 'static/me.jpg';
 
-	import { onMount } from 'svelte';
-
 	function openOutlook() {
 		window.open('mailto:jmontebell2@gulls.salisbury.edu', '_blank');
 	}
@@ -24,17 +22,14 @@
         Graduation: Dec 2023
     }`;
 	let language = 'javascript';
-
-	onMount(() => window.scrollTo(0, 0));
 </script>
 
 <div
 	class="flex flex-col items-center gap-2
 	
-	md:flex-row-reverse md:justify-evenly"
+	md:flex-row-reverse md:justify-evenly md:mb-20"
 	id="top"
-	in:fly={{ y: -15, delay: 50 * 15 }}
-	out:fade
+	transition:fly={{ y: -15, delay: 50 * 15 }}
 >
 	<Avatar
 		class="w-60 h-60 mt-[95px] shadow-2xl
@@ -77,7 +72,7 @@
 		</div>
 	</div>
 </div>
-<svg
+<!-- <svg
 	width="100%"
 	height="100%"
 	id="svg"
@@ -99,4 +94,4 @@
 		fill-opacity="1"
 		class="transition-all duration-300 ease-in-out delay-150 path-1"
 	/></svg
->
+> -->

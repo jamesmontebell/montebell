@@ -37,6 +37,7 @@
 		"clsx": "^1.2.1",
 		"lucide-svelte": "^0.236.0",
 		"radix-svelte": "^0.7.1",
+		"scrollreveal": "^4.0.9",
 		"svelte-hamburgers": "^4.0.1",
 		"svelte-prism": "^1.1.6",
 		"tailwind-merge": "^1.13.0",

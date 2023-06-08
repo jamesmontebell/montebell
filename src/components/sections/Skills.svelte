@@ -1,11 +1,11 @@
 <div
 	class="flex flex-col gap-6
 
-			md:flex-row-reverse md:px-20 md:py-10 md:
+			md:flex-row-reverse md:px-20 md:py-10
 	"
 >
 	<div
-		class="w-5/6 shadow-2xl border-[#d4163c] self-center rounded-lg p-2 flex flex-col items-center bg-[#202330] md:h-auto mb-4 object-cover"
+		class="w-5/6 shadow-2xl border-[#d4163c] self-center rounded-lg p-2 flex flex-col items-center bg-[#202330] md:h-auto mb-4 object-cover md:self-baseline"
 	>
 		<div class="font-bold text-xl mb-2 self-start bg-[#202330]">Academic interests</div>
 		<div class="flex flex-wrap gap-2 bg-[#202330]">

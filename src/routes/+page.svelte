@@ -1,4 +1,5 @@
-<script lang="ts">
+<script>
+	// @ts-ignore
 	import { fly, fade } from 'svelte/transition';
 	import Hero from '../components/sections/Hero.svelte';
 	import About from '../components/sections/About.svelte';
@@ -13,7 +14,9 @@
 	<title>James Montebell</title>
 </svelte:head>
 
-<Hero />
+<div class="hero">
+	<Hero />
+</div>
 
 <div class="flex flex-col text-xl">
 	<div class="md:flex md:flex-row-reverse md:w-full md:px-20 p-6 md:py-10 md:justify-center">
