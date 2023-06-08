@@ -41,7 +41,7 @@
 	md:mt-36 md:w-72 md:h-72 md:shadow-2xl
 	"
 	>
-		<AvatarImage class="" src="src/components/me.jpg" alt="@shadcn" />
+		<AvatarImage class="" src="static/me.jpg" alt="@shadcn" />
 		<AvatarFallback>CN</AvatarFallback>
 	</Avatar>
 	<div class="mt-10 md:mt-36">
